@@ -1,15 +1,42 @@
 <template>
-  <div>
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div class="menu">
+    <div class="menu__lang">
+      <button
+        :ref="lang"
+        v-for="lang in $i18n.availableLocales"
+        :key="lang"
+        class="menu__lang"
+        @click="changeLocale(lang)"
+        :disabled="lang === $i18n.locale ? true : false"
+      >
+        {{ lang }}
+      </button>
     </div>
+    <nav class="menu__nav" id="nav">
+      <router-link class="menu__nav__link" to="/">{{
+        $t("home.link")
+      }}</router-link>
+      |
+      <router-link class="menu__nav__link" to="/about">{{
+        $t("about.link")
+      }}</router-link>
+      |
+      <router-link class="menu__nav__link" to="/gallery">{{
+        $t("gallery.link")
+      }}</router-link>
+    </nav>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Menu"
+  name: "Menu",
+
+  methods: {
+    changeLocale(lang) {
+      this.$i18n.locale = lang;
+    }
+  }
 };
 </script>
 

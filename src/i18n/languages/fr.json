@@ -1,0 +1,11 @@
+{
+  "home": {
+    "link": "Accueil"
+  },
+  "about": {
+    "link": "A propos"
+  },
+  "gallery": {
+    "link": "Gallerie"
+  }
+}

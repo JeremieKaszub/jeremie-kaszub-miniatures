@@ -1,0 +1,11 @@
+{
+  "home": {
+    "link": "Home"
+  },
+  "about": {
+    "link": "About"
+  },
+  "gallery": {
+    "link": "Gallery"
+  }
+}

@@ -8,3 +8,22 @@
     </main>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.ui-two-columns {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $sm) {
+    flex-direction: row;
+  }
+
+  &__aside {
+    width: 100%;
+
+    @media (min-width: $sm) {
+      width: 320px;
+    }
+  }
+}
+</style>
