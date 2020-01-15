@@ -11,6 +11,46 @@
 }
 
 @font-face {
+  font-family: "Cormorant";
+  src: url("~@/assets/fonts/cormorantsc-regular-webfont.woff2") format("woff2"),
+    url("~@/assets/fonts/cormorantsc-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("~@/assets/fonts/cormorantsc-medium-webfont.woff2") format("woff2"),
+    url("~@/assets/fonts/cormorantsc-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("~@/assets/fonts/cormorantsc-semibold-webfont.woff2") format("woff2"),
+    url("~@/assets/fonts/cormorantsc-semibold-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("~@/assets/fonts/cormorantsc-light-webfont.woff2") format("woff2"),
+    url("~@/assets/fonts/cormorantsc-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("~@/assets/fonts/cormorantsc-bold-webfont.woff2") format("woff2"),
+    url("~@/assets/fonts/cormorantsc-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Montserrat";
   src: url("~@/assets/fonts/Montserrat-Extrabold.woff2") format("woff2"),
     url("~@/assets/fonts/Montserrat-Extrabold.woff") format("woff");
